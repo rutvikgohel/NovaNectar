@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Post a Job</title>
+  <link rel="stylesheet" href="post job.css">
+</head>
+<body>
+ <!-- Navbar -->
+<header style="display: flex; justify-content: space-between; align-items: center; padding: 10px 40px; border-bottom: 1px solid #ddd;">
+  <!-- Logo -->
+  <a href="I:\Nova-Nectar-Internship-task-2.-main\project.html" style="font-size: 22px; font-weight: bold; color: #3b48e0; text-decoration: none;">Myjob</a>
+
+  <!-- Navigation Links -->
+  <nav style="display: flex; gap: 20px;">
+      <a href="jobs.html" style="color: black; text-decoration: none; font-size: 16px;">Jobs</a>
+      <a href="company.html" style="color: black; text-decoration: none; font-size: 16px;">Company</a>
+      <a href="career.html" style="color: black; text-decoration: none; font-size: 16px;">Career</a>
+  </nav>
+
+  <!-- Buttons -->
+  <div style="display: flex; gap: 10px;">
+      <a href="login.html" style="background-color: #3b48e0; color: white; padding: 8px 16px; border-radius: 5px; text-decoration: none; font-size: 14px;">Login</a>
+      <a href="signup.html" style="background-color: #3b48e0; color: white; padding: 8px 16px; border-radius: 5px; text-decoration: none; font-size: 14px;">Signup</a>
+      <a href="post a job page.html" style="border: 1px solid #3b48e0; color: #3b48e0; padding: 8px 16px; border-radius: 5px; text-decoration: none; font-size: 14px;">Post a Job</a>
+      <a href="findjob.html" style="border: 1px solid #3b48e0; color: #3b48e0; padding: 8px 16px; border-radius: 5px; text-decoration: none; font-size: 14px;">Find a Job</a>
+  </div>
+</header>
+  <!-- Post a Job Section -->
+  <main class="post-job">
+    <div class="container">
+      <h2>Post a job</h2>
+      <p>Find the best talent for your company</p>
+      <form class="job-form">
+        <!-- Job Title and Company Name -->
+        <div class="form-row1">
+          <div class="form-group">
+            <label for="jobTitle">Job Title</label>
+            <input type="text" id="jobTitle" placeholder="Add job title, role vacancies etc">
+          </div>
+        </div>
+        <div class="form-row2">
+          <div class="form-group">
+            <label for="companyName">Company Name</label>
+            <input type="text" id="companyName" placeholder="Add job title, role vacancies etc">
+          </div>
+        </div>
+
+        <!-- Work Mode and Job Role -->
+        <div class="form-row">
+          <div class="form-group">
+            <label for="workMode">Work Mode</label>
+            <select id="workMode">
+              <option value="">Select...</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="jobRole">Job Role</label>
+            <select id="jobRole">
+              <option value="">Select...</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Salary Fields -->
+        <div class="form-row">
+          <div class="form-group">
+            <label for="minSalary">Min Salary</label>
+            <div class="salary-input">
+              <input type="text" id="minSalary" placeholder="Minimum Salary...">
+              <span>INR</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="maxSalary">Max Salary</label>
+            <div class="salary-input">
+              <input type="text" id="maxSalary" placeholder="Maximum Salary...">
+              <span>INR</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Vacancies and Job Level -->
+        <div class="form-row">
+          <div class="form-group">
+            <label for="vacancies">Vacancies</label>
+            <select id="vacancies">
+              <option value="">Select...</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="jobLevel">Job Level</label>
+            <select id="jobLevel">
+              <option value="">Select...</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Location: Country and City -->
+        <h5>Location </h5><br>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="country">Country</label>
+            <select id="country">
+              <option value="">Select...</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="city">City</label>
+            <select id="city">
+              <option value="">Select...</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Job Description -->
+        <div class="form-group">
+          <label for="jobDescription">Job Description</label>
+          <textarea id="jobDescription" placeholder="Add your description..."></textarea>
+        </div>
+
+        <!-- Post Job Button -->
+        <button type="submit" class="btn post-job-btn">Post Job</button>
+      </form>
+    </div>
+  </main>
+</body>
+</html>

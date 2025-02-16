@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal</title>
+    <link rel="stylesheet" href="project.css">
+    <script defer src="project.js"></script>
+</head>
+
+<body>
+<!-- Navbar -->
+<header style="display: flex; justify-content: space-between; align-items: center; padding: 10px 40px; border-bottom: 1px solid #ddd;">
+    <!-- Logo -->
+    <a href="I:\Nova-Nectar-Internship-task-2.-main\project.html" style="font-size: 22px; font-weight: bold; color: #3b48e0; text-decoration: none;">Myjob</a>
+
+    <!-- Navigation Links -->
+    <nav style="display: flex; gap: 20px;">
+        <a href="jobs.html" style="color: black; text-decoration: none; font-size: 16px;">Jobs</a>
+        <a href="company.html" style="color: black; text-decoration: none; font-size: 16px;">Company</a>
+        <a href="career.html" style="color: black; text-decoration: none; font-size: 16px;">Career</a>
+    </nav>
+
+    <!-- Buttons -->
+    <div style="display: flex; gap: 10px;">
+        <a href="login.html" style="background-color: #3b48e0; color: white; padding: 8px 16px; border-radius: 5px; text-decoration: none; font-size: 14px;">Login</a>
+        <a href="signup.html" style="background-color: #3b48e0; color: white; padding: 8px 16px; border-radius: 5px; text-decoration: none; font-size: 14px;">Signup</a>
+        <a href="post a job page.html" style="border: 1px solid #3b48e0; color: #3b48e0; padding: 8px 16px; border-radius: 5px; text-decoration: none; font-size: 14px;">Post a Job</a>
+        <a href="findjob.html" style="border: 1px solid #3b48e0; color: #3b48e0; padding: 8px 16px; border-radius: 5px; text-decoration: none; font-size: 14px;">Find a Job</a>
+    </div>
+</header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Find your dream job now</h1>
+                <p>1 lakh+ jobs for you to explore</p>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search for jobs" />
+                    <button> <a href="jobs.html" class="search">Search</a></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="categories">
+            <div class="container">
+                <h2>Popular Categories</h2>
+                <ul>
+                    <li>IT & Software</li>
+                    <li>Marketing</li>
+                    <li>Finance</li>
+                    <li>Design</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Companies Section -->
+        <section class="companies">
+            <div class="container">
+                <h2 class="h2">Top Companies Hiring Now</h2>
+                <div class="company-logos">
+                    <!-- Company 1 -->
+                    <div class="company-card">
+                        <img src="I:\Nova-Nectar-Internship-task-2.-main\samsung.png" alt="SAMSUNG">
+                        <p>SAMSUNG</p>
+                        <a href="I:\Nova-Nectar-Internship-task-2.-main\findjob.html">View Jobs</a>
+                    </div>
+
+                    <!-- Company 2 -->
+                    <div class="company-card">
+                        <img src="I:\Nova-Nectar-Internship-task-2.-main\uber.png" alt="UBER">
+                        <p>Uber</p>
+                        <a href="I:\Nova-Nectar-Internship-task-2.-main\findjob.html">View Jobs</a>
+                    </div>
+
+                    <!-- Company 3 -->
+                    <div class="company-card">
+                        <img src="I:\Nova-Nectar-Internship-task-2.-main\google.avif" alt="google">
+                        <p>Google</p>
+                        <a href="I:\Nova-Nectar-Internship-task-2.-main\findjob.html">View Jobs</a>
+                    </div>
+
+                    <!-- Company 4 -->
+                    <div class="company-card">
+                        <img src="I:\Nova-Nectar-Internship-task-2.-main\apple.png" alt="Apple">
+                        <p>Apple</p>
+                        <a href="I:\Nova-Nectar-Internship-task-2.-main\findjob.html">View Jobs</a>
+                    </div>
+        </section>
+
+         <!-- Qualification Section -->
+         <section class="qualifications">
+            <div class="container">
+                <h2>What is your qualification?</h2>
+                <ul id="qualification-list">
+                    <li data-qualification="10th">10th pass</li>
+                    <li data-qualification="12th">12th pass</li>
+                    <li data-qualification="diploma">Diploma</li>
+                    <li data-qualification="graduate">Graduate</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+        <section class="cta">
+            <div class="container">
+                <h2>Talk to HR directly & get a job with better salary</h2>
+                <input type="text" placeholder="Enter your number to receive updates">
+                <button>Send</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 MyJob. All rights reserved.</p>
+            <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
